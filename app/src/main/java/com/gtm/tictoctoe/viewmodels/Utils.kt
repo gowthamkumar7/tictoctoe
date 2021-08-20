@@ -13,15 +13,15 @@ class Utils {
          */
         fun createOrReset() {
 
+            playerImpressions.put("01", "")
+            playerImpressions.put("02", "")
+            playerImpressions.put("03", "")
             playerImpressions.put("11", "")
             playerImpressions.put("12", "")
             playerImpressions.put("13", "")
             playerImpressions.put("21", "")
             playerImpressions.put("22", "")
             playerImpressions.put("23", "")
-            playerImpressions.put("31", "")
-            playerImpressions.put("32", "")
-            playerImpressions.put("33", "")
         }
     }
 }

@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         binding.zeroOne.setOnClickListener {
 
             updateUI("01", binding.zeroOne)
-            viewmodel.checkTheWinner("01")
+            //viewmodel.checkTheWinner("01")
 
         }
         binding.zeroTwo.setOnClickListener {
